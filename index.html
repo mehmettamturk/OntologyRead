@@ -8,7 +8,9 @@
 <!-- https://code.google.com/p/owlreasoner/ -->
 
 <script type="text/javascript">
-	var ontology = jsw.owl.xml.parse(owlXml);
+	var url = "http://mehmettamturk.com/BreakfastOntology.owl";
+var ontology = jsw.owl.xml.parseUrl(url);
+	console.log(ontology)
 </script>
 </head>
 <body>
